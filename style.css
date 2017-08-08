@@ -1,0 +1,38 @@
+
+* {
+    border: 1px solid black;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size:7em;
+    color: #000;
+    text-align: center;
+}
+
+ul {
+}
+
+li {
+  color: #000;
+  display: inline-block;
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+
+.navbar {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+li:hover {
+    color: Gray;
+}
