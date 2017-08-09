@@ -28,13 +28,12 @@ ul {
 
 li {
   display: inline-block;
-  font-size: 1em;
-  text-align: center;
   padding: 0 20px;
 }
 
 .navbar {
     font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
     text-align: center;
 }
 
