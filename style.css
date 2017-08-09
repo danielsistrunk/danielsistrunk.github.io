@@ -28,13 +28,8 @@ li {
   padding: 0 20px;
 }
 
-a:link {
-    color: "#000";
-    text-decoration: none;
-}
-
-a:hover {
-    color: Gray;
+a {
+    color: #000;
     text-decoration: none;
 }
 
