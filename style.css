@@ -32,12 +32,11 @@ li {
     text-align: center;
 }
 
+li:link {
+    color: #000;
+}
 li:hover {
     color: Gray;
-}
-
-li:link {
-    color: #-000;
 }
 
 .content {
