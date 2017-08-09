@@ -36,6 +36,10 @@ li:hover {
     color: Gray;
 }
 
+li:link {
+    color: #-000;
+}
+
 .content {
     margin: 20px;
     padding: 20px;
