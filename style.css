@@ -39,7 +39,7 @@ a {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     text-align: center;
-    position: fixed;
+    position: absolute;
 }
 
 .content {
