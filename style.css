@@ -36,10 +36,10 @@ a {
 }
 
 .navbar {
+    position: absolute;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     text-align: center;
-    position: absolute;
 }
 
 .content {
