@@ -35,3 +35,7 @@ li {
 li:hover {
     color: Gray;
 }
+
+.content {
+    margin: 20px;
+}
