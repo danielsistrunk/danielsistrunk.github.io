@@ -39,13 +39,13 @@ a {
     text-decoration: none;
 }
 
-.navbar {
+/*.navbar {
     width: 100%;
     position: fixed;
     background-color: #FFF;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-}
+}*/
 
 .content {
     margin: 20px;
