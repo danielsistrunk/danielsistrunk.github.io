@@ -16,6 +16,7 @@ h1 {
     color: #000;
     text-align: center;
     padding: 10px;
+    z-index: 1000;
 }
 
 h2 {
@@ -46,6 +47,7 @@ a {
     background-color: #FFF;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
+    z-index: 500;
 }
 
 .content {
