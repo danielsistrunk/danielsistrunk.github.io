@@ -45,7 +45,7 @@ a {
     position: fixed;
     font-family: 'Pacifico', cursive;
     font-size: 1em;
-    padding: 10px 0px;
+    padding: 10px;
     z-index: 1000;
 }
 
@@ -56,7 +56,7 @@ a {
     background-color: #FFF;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-    padding: 10px 0px;
+    padding: 10px;
     z-index: 500;
 }
 
