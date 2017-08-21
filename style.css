@@ -46,7 +46,7 @@ a {
 }
 .navbar {
     display: inline;
-    width: 100%;
+    width: 50%;
     position: fixed;
     background-color: #FFF;
     font-family: 'Open Sans', sans-serif;
