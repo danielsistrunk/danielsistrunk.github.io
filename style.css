@@ -43,6 +43,12 @@ a {
 .title {
     display: inline;
     width: 50%;
+    position: fixed;
+    background-color: #FFF;
+    font-family: 'Pacifico', cursive;
+    font-size: 1em;
+    z-index: 500;
+}
 }
 .navbar {
     display: inline;
