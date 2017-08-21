@@ -42,17 +42,15 @@ a {
 
 .title {
     display: inline-block;
-    width: 50%;
     position: fixed;
-    background-color: #FFF;
     font-family: 'Pacifico', cursive;
     font-size: 1em;
-    z-index: 500;
+    z-index: 1000;
 }
 
 .navbar {
     display: inline-block;
-    width: 50%;
+    width: 100%;
     position: fixed;
     background-color: #FFF;
     font-family: 'Open Sans', sans-serif;
