@@ -60,7 +60,9 @@ a {
 }
 
 .jumbotron {
+    /*
     position: absolute;
+    */
     background-color: #FFF;
     text-align: center;
     width: 100%;
