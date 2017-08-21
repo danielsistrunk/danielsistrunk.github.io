@@ -63,6 +63,7 @@ a {
     position: absolute;
     background-color: #FFF;
     text-align: center;
+    width: 100%;
     z-index: 5000;
 }
 
