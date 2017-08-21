@@ -41,7 +41,7 @@ a {
 }
 
 .title {
-    display: inline;
+    display: inline-block;
     width: 50%;
     position: fixed;
     background-color: #FFF;
@@ -51,7 +51,7 @@ a {
 }
 
 .navbar {
-    display: inline;
+    display: inline-block;
     width: 50%;
     position: fixed;
     background-color: #FFF;
