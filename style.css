@@ -59,6 +59,11 @@ a {
     z-index: 500;
 }
 
+.jumbotron {
+    position: absolute;
+    z-index: 5000;
+}
+
 .content {
     margin: 20px;
     padding: 20px;
