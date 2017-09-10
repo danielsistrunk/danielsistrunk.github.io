@@ -74,3 +74,8 @@ a {
     width: 100%;
     z-index: 5000;
 }
+
+.content {
+     margin: 20px;
+     padding: 20px;
+ }
