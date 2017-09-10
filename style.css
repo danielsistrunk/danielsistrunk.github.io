@@ -1,8 +1,8 @@
-/*
+
 * {
     border: 1px solid black;
 }
-*/
+
 
 * {
     margin: 0;
@@ -11,7 +11,7 @@
 }
 
 .container {
-    padding: 0 0 10px 0;
+    padding: 50px;
     background-color: #FFF;
 }
 
