@@ -13,6 +13,7 @@
 .container {
     display: inline-block;
     position: fixed;
+    height: 3em;
     width: 100%;
     background-color: #FFF;
 }
