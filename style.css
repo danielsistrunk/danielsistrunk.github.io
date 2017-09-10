@@ -12,6 +12,7 @@
 
 .container {
     display: block;
+    position: fixed;
     padding: 20px;
     background-color: #FFF;
 }
