@@ -33,6 +33,7 @@
     position: fixed;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
+    padding: 1em;
     z-index: 500;
 }
 
