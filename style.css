@@ -23,6 +23,7 @@
     position: fixed;
     font-family: 'Pacifico', cursive;
     font-size: 2em;
+    padding: 0;
     z-index: 1000;
 }
 
