@@ -27,26 +27,113 @@
         <div class="content">
             <div class="music" id="music">
                 <h2>Music</h2>
-                <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/301429221&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-                <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/83065290&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>            </div>
+                <iframe width="100%" height="300px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/301429221&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                <iframe width="100%" height="400px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/83065290&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>            </div>
         </div>
             
         <div class="content">
             <div class="photo" id="photo">
                 <h2>Photography</h2>
-                <div id="cp_widget_7c2a11e4-47f4-429b-9365-b0aebea23eeb">...
-                </div>
-                <script type="text/javascript">
-                    var cpo = []; cpo["_object"] ="cp_widget_7c2a11e4-47f4-429b-9365-b0aebea23eeb"; cpo["_fid"] = "AQHAFWbfusRv";
-                    var _cpmp = _cpmp || []; _cpmp.push(cpo);
-                    (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
-                    cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
-                    var c = document.getElementsByTagName("script")[0];
-                    c.parentNode.insertBefore(cp, c); })(); 
-                </script>
-                <noscript>
-                </noscript>
+                <!--
+                
+                <h3>Yellowstone</h3>
+                <img src="Photography/Yellowstone/1.JPG">
+                <img src="Photography/Yellowstone/2.JPG">
+                <img src="Photography/Yellowstone/IMG_0773.JPG">
+
+                <h3>Colorado</h3>
+                <img src="Photography/Colorado/IMG_0594.JPG">
+                <img src="Photography/Colorado/IMG_0620.JPG">
+                <img src="Photography/Colorado/IMG_0622.JPG">
+
+                <h3>Belize</h3>
+                <img src="Photography/Belize/1.JPG">
+                <img src="Photography/Belize/IMG_1561.JPG">
+                <img src="Photography/Belize/IMG_1567.JPG">
+
+                <h3>Venice</h3>
+                <img src="Photography/Venice/DSC_1538.JPG">
+                <img src="Photography/Venice/2.JPG">
+                <img src="Photography/Venice/DSC_1583.JPG">
+
+                -->
+            </div>
+            <div class="grid">
+                <img class="myImg" id="thumbnail" onclick="openModal();currentSlide(1)" src="Photography/Venice/1.JPG">
+                <img class="myImg" id="thumbnail" onclick="openModal();currentSlide(2)" src="Photography/Venice/2.JPG">
+                <img class="myImg" id="thumbnail" onclick="openModal();currentSlide(3)" src="Photography/Venice/3.JPG">
+                <img class="myImg" id="thumbnail" onclick="openModal();currentSlide(4)" src="Photography/Belize/1.JPG">
+                <img class="myImg" id="thumbnail" onclick="openModal();currentSlide(5)" src="Photography/Belize/2.JPG">
+                <img class="myImg" id="thumbnail" onclick="openModal();currentSlide(6)" src="Photography/Belize/3.JPG">
+                <img class="myImg" id="thumbnail" onclick="openModal();currentSlide(7)" src="Photography/Colorado/1.JPG">
+                <img class="myImg" id="thumbnail" onclick="openModal();currentSlide(8)" src="Photography/Colorado/2.JPG">
+                <img class="myImg" id="thumbnail" onclick="openModal();currentSlide(9)" src="Photography/Colorado/3.JPG">
+                <img class="myImg" id="thumbnail" onclick="openModal();currentSlide(10)" src="Photography/Yellowstone/1.JPG">
+                <img class="myImg" id="thumbnail" onclick="openModal();currentSlide(11)" src="Photography/Yellowstone/2.JPG">
+                <img class="myImg" id="thumbnail" onclick="openModal();currentSlide(12)" src="Photography/Yellowstone/3.JPG">
+            </div>
+            
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+        
+                <!-- The Close Button -->
+                <span class="close" onclick="closeModal()">&times;</span>
+        
+                <!-- Modal Content (The Image) -->
+                <div class="mySlides"><img class="modal-content" src="Photography/Venice/1.JPG"></div>
+                <div class="mySlides"><img class="modal-content" src="Photography/Venice/2.JPG"></div>
+                <div class="mySlides"><img class="modal-content" src="Photography/Venice/3.JPG"></div>
+                <div class="mySlides"><img class="modal-content" src="Photography/Belize/1.JPG"></div>
+                <div class="mySlides"><img class="modal-content" src="Photography/Belize/2.JPG"></div>
+                <div class="mySlides"><img class="modal-content" src="Photography/Belize/3.JPG"></div>
+                <div class="mySlides"><img class="modal-content" src="Photography/Colorado/1.JPG"></div>
+                <div class="mySlides"><img class="modal-content" src="Photography/Colorado/2.JPG"></div>
+                <div class="mySlides"><img class="modal-content" src="Photography/Colorado/3.JPG"></div>
+                <div class="mySlides"><img class="modal-content" src="Photography/Yellowstone/1.JPG"></div>
+                <div class="mySlides"><img class="modal-content" src="Photography/Yellowstone/2.JPG"></div>
+                <div class="mySlides"><img class="modal-content" src="Photography/Yellowstone/3.JPG"></div>
             </div>
         </div>
-        </body>
+    </body>
+            
+    <script>
+        function openModal() {
+            document.getElementById('myModal').style.display = "block";
+        }
+                    
+        function closeModal() {
+            document.getElementById('myModal').style.display = "none";
+        }
+                    
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        /*      
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+        */
+                    
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }    
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+                captionText.innerHTML = dots[slideIndex-1].alt;
+                }
+    </script>
 </html>
