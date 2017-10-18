@@ -109,8 +109,8 @@ a {
 
 .grid {
     display: grid;
-    height: 50rem;
-    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    height: 66rem;
+    grid-template: repeat(4, 1fr) / repeat(3, 1fr);
     grid-gap: 10px 10px;
 }
 
